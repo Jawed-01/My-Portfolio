@@ -1,0 +1,118 @@
+   
+/* css variables */
+:root{
+  --title--:40px;
+  --primarycolor--:rgba(129, 37, 235, 0.726);
+}
+
+
+
+#logo {
+  text-align: left;
+}
+#logo div {
+  margin-top: 20px;
+}
+#logo > h1 {
+  display: inline-block;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+li {
+  font-size: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+nav a:hover {
+  color: rgba(129, 37, 235, 0.726);
+  background-color: lightgray;
+}
+nav li:first-child a,
+nav li:last-child a {
+  background-color: rgba(129, 37, 235, 0.726);
+  color: white;
+}
+nav li:last-child a:hover {
+  background-color: rgb(92, 24, 156);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 4px rgba(96, 26, 177, 0.726);
+}
+
+
+#main {
+  display: flex; 
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  margin-top: 20px;
+}
+#left, #right {
+  width: 49%;
+  /* height: 400px; */
+}
+#left {
+  /* border: 2px solid red; border: 2px solid blue; */
+    margin: 50px 30px;
+    height: 200px;
+
+}
+/* #right {  border: 2px solid green; */
+
+#text>button{
+  padding: 10px 30px;
+  border-radius: 6px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+} 
+
+
+#title{
+  width: 50%;
+  /* border: 2px solid black; */
+  margin: 30px auto;
+  margin-top: 40px;
+  text-align: center;
+}
+#title>h1{
+  font-size: var(--title--);
+}
+#cards{
+  width: 400px;
+  height: 300PX;
+  border-radius: 20px;
+  border: 2PX solid black;
+}
+#cardstext>P{
+  color: rgb(148, 138, 138);
+}
+#cardtext>button{
+  padding: 5PX 10PX;
+  border-radius: 10PX;
+  background-color: transparent;
+  border-color: lightgray;
+}
+
+  
+
+
+  
+
+      
+        
+        
+        
+        
+        
+
